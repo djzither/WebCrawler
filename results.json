@@ -1,0 +1,60 @@
+{
+    "tests": [
+        {
+            "score": 10,
+            "max_score": 10,
+            "name": "test_webcrawler.py::test_invalid_arguments",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_webcrawler.py::test_link_validator",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 25,
+            "max_score": 25,
+            "name": "test_webcrawler.py::test_count_links",
+            "output": "['/proj/proj4/assets/page5.html']\nthis is the wrong link https://cs111.byu.edu/proj/proj4/assets/page1.html link where accessed from https://cs111.byu.edu/proj/proj4/assets/page2.html\nthis is the wrong link https://cs111.byu.edu/proj/proj4/assets/page1.html link where accessed from https://cs111.byu.edu/proj/proj4/assets/page4.html\nthis is the wrong link https://cs111.byu.edu/proj/proj4/assets/page1.html, count 3\nthis is the full dict {'https://cs111.byu.edu/proj/proj4/assets/page1.html': 3, 'https://numpy.org/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page5.html': 1, 'https://pandas.pydata.org/': 1, 'https://flask.palletsprojects.com/en/2.3.x/': 1, 'https://www.djangoproject.com/': 1, 'https://www.tensorflow.org/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page3.html': 2, 'https://www.python.org/': 1, 'https://www.jetbrains.com/pycharm/': 1, 'https://code.visualstudio.com/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page2.html': 1, 'https://cs111.byu.edu/proj/proj4/assets/page4.html': 1, 'https://docs.python.org/3/library/functions.html': 3, 'https://docs.python.org/3/library/stdtypes.html': 5, 'https://en.wikipedia.org/wiki/API': 1}\nLOOK AT ME BRO\n{'https://cs111.byu.edu/proj/proj4/assets/page1.html': 3, 'https://numpy.org/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page5.html': 1, 'https://pandas.pydata.org/': 1, 'https://flask.palletsprojects.com/en/2.3.x/': 1, 'https://www.djangoproject.com/': 1, 'https://www.tensorflow.org/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page3.html': 2, 'https://www.python.org/': 1, 'https://www.jetbrains.com/pycharm/': 1, 'https://code.visualstudio.com/': 1, 'https://cs111.byu.edu/proj/proj4/assets/page2.html': 1, 'https://cs111.byu.edu/proj/proj4/assets/page4.html': 1, 'https://docs.python.org/3/library/functions.html': 3, 'https://docs.python.org/3/library/stdtypes.html': 5, 'https://en.wikipedia.org/wiki/API': 1}\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 25,
+            "max_score": 25,
+            "name": "test_webcrawler.py::test_plot_data",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6.25,
+            "max_score": 6.25,
+            "name": "test_webcrawler.py::test_modify_images_sepia",
+            "output": "('-s', 'flamingo-float.png', 's_flamingo-float.png')\n('-s', 'landscape.png', 's_landscape.png')\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6.25,
+            "max_score": 6.25,
+            "name": "test_webcrawler.py::test_modify_images_grayscale",
+            "output": "('-g', 'flamingo-float.png', 'g_flamingo-float.png')\n('-g', 'landscape.png', 'g_landscape.png')\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6.25,
+            "max_score": 6.25,
+            "name": "test_webcrawler.py::test_modify_images_vertical_flip",
+            "output": "('-f', 'flamingo-float.png', 'f_flamingo-float.png')\n('-f', 'landscape.png', 'f_landscape.png')\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 6.25,
+            "max_score": 6.25,
+            "name": "test_webcrawler.py::test_modify_images_horizontal_flip",
+            "output": "('-m', 'flamingo-float.png', 'm_flamingo-float.png')\n('-m', 'landscape.png', 'm_landscape.png')\n\n",
+            "visibility": "visible"
+        }
+    ]
+}
